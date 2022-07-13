@@ -1,0 +1,28 @@
+body{
+    background-color: blueviolet;
+}
+a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0 1rem;
+    color: yellow;
+}
+
+.section_link{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    align-items: center;
+
+}
+.section_link h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+}
