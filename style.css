@@ -7,14 +7,26 @@ h1{
     text-align: center;
     border-radius: 5px;
 }
-
+.a_link{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+    margin-top: 40px;
+    
+}
 a{
     font-size: 2rem;
     text-decoration: none;
     padding: 0 1rem;
     font-style: italic;
     font-weight: bolder;
-    
+    color: black;
+    background-color: bisque;  
+    border: 1px solid black;
+    border-radius: 50px;  
+    cursor: pointer;
 }
 img{
     margin-left: auto;
